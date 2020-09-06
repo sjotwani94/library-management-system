@@ -1,0 +1,81 @@
+<html>
+<head>
+<title>Library Management System</title>
+<link rel="stylesheet" type="text/css" href="xyz.css">
+<link rel="shortcut icon" href="image/nirma_logo.ico">
+<style>
+form
+{
+border: 10px outset silver;
+padding-bottom: 50px;
+padding-top: 50px;
+width: 800px;
+background-image: url("image/scene.jpg");
+text-align: center;
+margin: 100px 150px;
+background-size: 100% 100%;
+}
+th,td
+{
+	font-size: 120%;
+	font-family: Verdana;
+	color: #8a0000;
+	text-align: left;
+}
+</style>
+</head>
+<body>
+	<div id="header">
+		<img src="image/nimlogo.png" height="50px" width="120px">
+		<h1 align="center" style="font-size:250%">Library Management System</h1>
+	</div>
+	<div id="container">
+		<aside>
+			<ul>
+				<li>Dashboard
+				<li><a href="books.html">Book Entry</a>
+				<li><a href="issue.html">Issue Entry</a>
+				<li><a href="member.html">Member Entry</a>
+				<li><a href="penalty.html">Penalty Entry</a>
+			</ul>
+		</aside>
+		<div id="main">
+		<form>
+			<font style="font-family: impact, sans-serif;font-size:200%">Penalty of Due...</font><br><br>
+			<center><table>
+				<tr>
+					<th>Issue ID: </th>
+					<td><input type="text" name="issue_id" placeholder="Issue ID"></td>
+				</tr>
+				<tr>
+					<th>Book ID: </th>
+					<td><input type="text" name="book_id" placeholder="Book ID"></td>
+				</tr>
+				<tr>
+					<th>Member ID: </th>
+					<td><input type="text" name="member_id" placeholder="Member ID"></td>
+				</tr>
+				<tr>
+					<th>Issue date: </th>
+					<td><input type="date" name="issue_date" ></td>
+				</tr>
+				<tr>
+					<th>Returning date: </th>
+					<td><input type="date" name="Returning_date" ></td>
+				</tr>
+				<tr>
+					<th>Returned date: </th>
+					<td><input type="date" name="Returned_date" ></td>
+				</tr>
+				<tr>
+					<th>Penalty Amount: </th>
+					<td><input type="number" name="penalty_amt" placeholder="Enter Penalty Amount"></td>
+				</tr>
+			</table></center>
+			<br>
+			<button class="submit btn btn-danger" type="submit" name="submit">Pay Due Money</button>
+		</form>
+		</div>
+	</div>
+</body>
+</html>

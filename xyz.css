@@ -1,0 +1,159 @@
+body
+{
+	background-image: url("image/back.jpg");
+	background-size: 100% 100%;
+	background-attachment: fixed;
+}
+h1
+{
+margin-top: 0px;
+margin-left: 5px;
+padding-left: 280px;
+padding-right: 280px;
+background-color: #208a15;
+border: 1px outset lightgreen;
+color: yellow;
+font-family: candara, sans-serif; 
+}
+#header
+{
+	display: flex;
+	position: fixed;
+	margin-top: 0px;
+}
+#headerlogin
+{
+	display: flex;
+}
+input:focus,
+select:focus,
+textarea:focus 
+{
+	outline: none !important;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075) !important;
+	-moz-box-shadow: inset 0 1px 1px rgba(0,0,0,.075) !important;
+	-ms-box-shadow: inset 0 1px 1px rgba(0,0,0,.075) !important;
+	-o-box-shadow: inset 0 1px 1px rgba(0,0,0,.075) !important;
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.075) !important;
+	border:1px solid #ddd !important;
+}
+input 
+{
+	width: 300px;
+	border: 1px solid #ddd;
+	border-radius: 0px;
+	padding: 10px;
+	border-radius: 0px !important;
+}
+textarea 
+{
+	border: 1px solid #ddd;
+	border-radius: 0px;
+	padding: 10px;
+	border-radius: 0px !important;
+}
+select 
+{
+	width: 300px;
+	border: 1px solid #ddd;
+	border-radius: 0px;
+	padding: 10px;
+	border-radius: 0px !important;
+}
+aside
+{
+	background-image: url("image/aside.jpg");
+	width: 205px;
+	height: 690px;
+	border: 5px inset yellow;
+	float: left;
+	margin-bottom: 10px;
+	position: fixed;
+	margin-top: 60px;
+}
+ul
+{
+	list-style-type: none;
+	list-style-position: inside;
+	margin: 0px;
+	padding: 0px;
+}
+li
+{
+	margin-bottom: 5px;
+	background-color: lightblue;
+	text-align: center;
+	color: green;
+	font-family: verdana, sans-serif;
+	font-size: 150%;
+	height: 50px;
+	width: 205px;
+}
+li:hover
+{
+	background-color: yellow;
+	font-size: 160%;
+	color: blue;
+}
+a
+{
+	text-decoration: none;
+}
+a:link
+{
+	color: green;
+}
+a:hover
+{
+	color: blue;
+}
+a:visited
+{
+	color: green;
+}
+a:visited:hover
+{
+	color: blue;
+}
+#container
+{
+	width: 1340px;
+	margin-top: 0px;
+}
+#main
+{
+	border: 5px double blue;
+	background-image: url("image/main.jpg");
+	background-size: 100% 100%;
+	float: right;
+	width: 1110px;
+	height: 690px;
+	margin-bottom: 10px;
+	margin-top: 60px;
+}
+.btn 
+{
+	border-radius: 5px !important;
+	padding: 10px 20px;
+	background-color: #fff;
+	color: #857E7E;
+	border: 1px solid #ddd;
+}
+.btn-danger1 
+{
+    color: #fff !important;
+    border: none !important;
+    background-color: #24A62F !important;
+}
+.btn-danger 
+{
+    color: #fff !important;
+    border: none !important;
+    background-color: blue !important;
+}
+.btn-danger2 
+{
+    color: #fff !important;
+    border: none !important;
+    background-color: red !important;
+}
