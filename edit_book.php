@@ -97,7 +97,7 @@ th,td
 				<li><a href="books.php">Book Entry</a>
 				<li><a href="issue.php">Issue Entry</a>
 				<li><a href="member.php">Member Entry</a>
-				<li><a href="penalty.html">Penalty Entry</a>
+				<li><a href="#">Penalty Entry</a>
 			</ul>
 		</aside>
 		<div id="main">
